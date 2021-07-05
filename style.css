@@ -96,7 +96,12 @@ body{
 
 }
 #exprieance-right{
-    border-left: 10px gray solid;
+     /* border-left: solid;
+    border-width: 20px;
+    border-style: solid; */
+    border-image: linear-gradient( red,blue);
+    
+
 }
 footer{
     background-color: rgba(17, 16, 16, 0.699);
