@@ -29,9 +29,6 @@ body{
 .main-left p{
     margin-bottom: 30px; 
 } 
-.button{
-    
-}
 .main-right{
     margin-right: 0px;
     width: 30%;
@@ -55,7 +52,6 @@ body{
     background-position: right;
     margin-bottom: 50px;
 }
-}
 .dream-left{
     width: 50%;
 
@@ -71,6 +67,8 @@ body{
 .exprieance{
     display: flex;
     padding-bottom: 20px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
 
 }
 #exprience {
