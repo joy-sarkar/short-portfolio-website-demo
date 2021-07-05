@@ -16,58 +16,88 @@ body{
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 80px;
 }
 .main-left{
     width: 50%;
+    padding: 140px 20px 20px 40px;
+}
+.main-left h1{
+    font-size: 60px;
+    font-weight: 800;
+}
+.main-left p{
+    margin-bottom: 30px; 
+} 
+.button{
+    
 }
 .main-right{
     margin-right: 0px;
     width: 30%;
 }
 .main-right img{
-   margin: 40px 50px 10px;
+   margin: 50px 50px 10px;
 }
 .button{
     text-decoration: none;
-    background-image:linear-gradient(to top left, #f15330 ,#e68a69);
+    background-image:linear-gradient(to top left, #ec370e ,#b8674a);
     padding: 8px 15px;
     border-radius: 5px;
     font-weight: 600;
+    color: white;
+    
 }
 .dream-bg{
     display: flex;
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 50px;
+}
 }
 .dream-left{
     width: 50%;
 
 }
+.dream-right P{
+    margin-bottom: 50px;
+}
 .dream-right{
     width: 50%;
+    padding: 100px 20px 20px 40px;
 
 }
 .exprieance{
     display: flex;
+    padding-bottom: 20px;
 
 }
 #exprience {
     text-transform: capitalize;
     font-weight: 700;
     font-size: 45px;
+    padding-bottom: 20px;
 
 }
 .exprieance-left{
-    width: 50%;
+    width: 40%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 20px;
+    padding: 20px 10px;
 
 }
 .exprieance-right{
-    width: 50%;
+    width: 40%;
+    margin-left: 5%;
+    box-shadow: 10px 10px 20px;
+    padding: 20px 10px;
 
 }
 footer{
     background-color: rgba(17, 16, 16, 0.699);
     color: white;
     text-align: center;
+    height: 30px;
+    margin-top: 30px;
 }
