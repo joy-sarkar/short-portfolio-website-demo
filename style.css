@@ -5,6 +5,10 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* h1{
+    font-size: 50px;
+    text-transform: uppercase;
+} */
 .orange-color{
     color: orange;
 }
@@ -14,11 +18,14 @@ body{
     background-repeat: no-repeat;
 }
 .main-left{
-    width: 70%;
+    width: 50%;
 }
 .main-right{
     margin-right: 0px;
-    width: 40%;
+    width: 30%;
+}
+.main-right img{
+   margin: 40px 50px 10px;
 }
 .button{
     text-decoration: none;
@@ -34,8 +41,28 @@ body{
     background-position: right;
 }
 .dream-left{
+    width: 50%;
 
 }
 .dream-right{
+    width: 50%;
+
+}
+.exprieance{
+    display: flex;
+
+}
+#exprience {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 45px;
+
+}
+.exprieance-left{
+    width: 50%;
+
+}
+.exprieance-right{
+    width: 50%;
 
 }
