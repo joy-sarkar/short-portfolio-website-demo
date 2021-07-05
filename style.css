@@ -69,6 +69,7 @@ body{
     padding-bottom: 20px;
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
+  
 
 }
 #exprience {
@@ -83,23 +84,25 @@ body{
     margin-left: 5%;
     box-shadow: 10px 10px 20px;
     padding: 20px 10px;
-
+    border-radius: 10px;
 }
 #exprieance-left{
-    border-left: 10px gray solid;
+    border-left: 10px solid;
+    border-image: linear-gradient( red,blue);
+    border-image-slice: 1;
 }
 .exprieance-right{
     width: 40%;
     margin-left: 5%;
     box-shadow: 10px 10px 20px;
     padding: 20px 10px;
+    border-radius: 10px;
 
 }
 #exprieance-right{
-     /* border-left: solid;
-    border-width: 20px;
-    border-style: solid; */
+    border-left: 10px solid;
     border-image: linear-gradient( red,blue);
+    border-image-slice: 1;
     
 
 }
