@@ -1,5 +1,22 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.orange-color{
+    color: orange;
+}
+.main-bg{
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.main-left{
+    width: 50%;
+}
+.main-right{
+    margin-right: 0px;
+    width: 40%;
 }
