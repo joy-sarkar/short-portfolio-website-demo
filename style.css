@@ -85,12 +85,18 @@ body{
     padding: 20px 10px;
 
 }
+#exprieance-left{
+    border-left: 10px gray solid;
+}
 .exprieance-right{
     width: 40%;
     margin-left: 5%;
     box-shadow: 10px 10px 20px;
     padding: 20px 10px;
 
+}
+#exprieance-right{
+    border-left: 10px gray solid;
 }
 footer{
     background-color: rgba(17, 16, 16, 0.699);
